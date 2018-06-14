@@ -9,12 +9,9 @@ function dichotomy(arr){
           break;
         }
         else{
-         for(var j=0;j < arr.length;j++){
-           arr[j].q = j;
-         }
          var shan = arr[i];
          var Arr = dichotomyBasic(shan);
-         var Q = shan.q;
+         var Q = i;
          arr.splice(i,1);
 
          for(var m=0;m < Arr.length;m++){
