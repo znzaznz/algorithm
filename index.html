@@ -26,8 +26,21 @@
     //   push(5);
     // console.log(pop());
     // push(6)
-    // console.log(pop());
-    console.log(jump(3));;
+    // // console.log(pop());
+    // const time1 = new Date().getTime();
+    // console.log(new Date().getTime());
+    //
+    // setTimeout(jump(8),1000)
+    // console.log(new Date().getTime());
+    // console.log(memoryJump(8));
+
+    const time1 = new Date().getTime();
+    jump(30)
+    const time2 = new Date().getTime();
+    console.log(time2 - time1);
+    memoryJump(30)
+    const time3 = new Date().getTime();
+    console.log(time3 - time2);
   </script>
 </body>
 </html>
