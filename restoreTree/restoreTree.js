@@ -21,5 +21,4 @@ function restoreTree(NLRArr,LNRArr){
 
         return Node
     }
-
 }
